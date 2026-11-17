@@ -1,0 +1,34 @@
+# --- Secrets ---
+# LLM API key and other private settings
+.env
+.env.*
+!.env.example
+
+# --- Data ---
+# Official M5 CSVs are large and come from Kaggle; never commit them
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated outputs (SQLite database, cleaned tables)
+data/processed/*
+!data/processed/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Streamlit ---
+# Local Streamlit secrets (API keys)
+.streamlit/secrets.toml
+
+# --- macOS ---
+.DS_Store
