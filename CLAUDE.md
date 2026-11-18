@@ -150,8 +150,8 @@ validation or copilot query validation.
 
 ### Milestone 0 — Project Setup
 - [x] Create `CLAUDE.md`
-- [ ] Confirm project folder structure
-- [ ] Set up Python environment and `requirements.txt`
+- [x] Confirm project folder structure
+- [x] Set up Python environment and `requirements.txt`
 
 ### Milestone 1 — Data Foundation (Day 1)
 - [ ] Obtain official M5 files into `data/raw/`

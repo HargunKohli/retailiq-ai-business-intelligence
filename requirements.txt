@@ -1,0 +1,8 @@
+# RetailIQ — Python dependencies (Python 3.13.2)
+# SQLite is built into Python (sqlite3); no package needed.
+
+pandas==3.1.1          # data loading, reshaping, validation
+streamlit==1.67.0      # application UI
+plotly==7.1.0          # interactive charts
+anthropic==2.10.0      # Claude API client for the AI copilot
+python-dotenv==1.2.4   # loads the API key from .env
